@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <p class="name">
+            Time2go
+        </p>
+    </header>
+    <div class="main-container">
+        <div class="left-child-container">
+            <div class="date">
+                <p>Date:</p>
+                <i class="fa-solid fa-calendar-days"></i>
+                <input type="date"  id="endDate"/>
+            </div>
+            <div class="time">
+                <p>Time:</p>
+                <i class="fa-solid fa-clock"></i>
+                <input type="time" id="endTime"/>
+            </div>
+            <button id="startBtn">Start</button>
+        </div>
+        <div class="center-child-container">
+            <div class="remaining-datetime">
+                <div class="division-datetime">
+                <p>Days</p>
+                <p>Hours</p>
+                <p>Minutes</p>
+                <p>Seconds</p>
+            </div> 
+            <div class="timer">
+                <p id="days"> 0</p>
+                <p id="hours"> 0 </p>
+                <p id="minutes"> 0 </p>
+                <p id="seconds"> 0  </p>   
+            </div>
+            </div>
+        </div>
+         
+    </div>
+    <p id="message" class="message"></p>
+    <script src="script.js"></script>
+</body>
+</html>
