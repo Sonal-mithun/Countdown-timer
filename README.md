@@ -15,4 +15,4 @@ Users can set a time, and the timer will count down to zero with a notification 
 - JavaScript
 
 ## Live Link
-[View Countdown Timer](https://yourusername.github.io/Countdown-timer/)
+[View Countdown Timer](https://Sonal-mithun.github.io/Countdown-timer/)
